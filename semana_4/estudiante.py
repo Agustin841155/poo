@@ -28,6 +28,10 @@ class EstudianteAgustin (Estudiante):
     print("elegir una carrera")
   def asignar(self):
     print("se le asigna un grupo segun su carrera")
+  def tareas(self):
+    print("tareas de la carrera ")
+  def pasar(self):
+    print("pasar las materias ")
 
   def __init__(self):
     print("Estudiante agustin")
@@ -44,6 +48,8 @@ print(OBJETO.cuatrimestre)
 OBJETO_ESTUDIANTE_AGUSTIN=EstudianteAgustin()
 OBJETO_ESTUDIANTE_AGUSTIN.elegir()
 OBJETO_ESTUDIANTE_AGUSTIN.asignar()
+OBJETO_ESTUDAINTE_AGUSTIN.tareas()
+OBJETO_ESTUDAINTE_AGUSTIN.pasar()
 print(OBJETO_ESTUDIANTE_AGUSTIN.nombre)
 print(OBJETO_ESTUDIANTE_AGUSTIN.matricula)
 print(OBJETO_ESTUDIANTE_AGUSTIN.carrera)

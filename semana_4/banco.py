@@ -28,6 +28,10 @@ class BancoBanamex (Banco):
     print("retirar en cajero automatico")
   def pagar(self):
     print("pagar en cajeros automaticos")
+  def cobrar(self):
+    print("cobrar distintos servicios")
+  def depositar(self):
+    print("depositar")
 
   def __init__(self):
     print("Banco Banamex")
@@ -44,6 +48,8 @@ print(OBJETO.Diseno)
 OBJETO_UN_BANCO = BancoBanamex()
 OBJETO_UN_BANCO.retirar()
 OBJETO_UN_BANCO.pagar()
+OBJETO_UN_BANCO.cobrar()
+OBJETO_UN_BANCO.depositar()
 print(OBJETO_UN_BANCO.nombre)
 print(OBJETO_UN_BANCO.Tamano)
 print(OBJETO_UN_BANCO.Logo)

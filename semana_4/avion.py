@@ -28,6 +28,10 @@ class AvionYet (Avion):
     print("puede volar como otros aviones pero mas rapido")
   def transportaPasajeros(self):
     print("es un avion exclusivo para distintos pasajeros")
+  def comodidad(self):
+    print("comodidad")
+  def rapidez(self):
+    print("rapidez")
 
   def __init__(self):
     print("Avion Yet")
@@ -44,6 +48,8 @@ print(objeto.Color)
 objeto_un_avion = AvionYet()
 objeto_un_avion.puedeVolar()
 objeto_un_avion.transportaPasajeros()
+objeto_un_avion.comodidad()
+objeto_un_avion.rapidez()
 print(objeto_un_avion.Tipo_de_combustible)
 print(objeto_un_avion.Tamano)
 print(objeto_un_avion.Diseno)
