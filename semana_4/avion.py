@@ -1,10 +1,10 @@
 class Avion:
   #Atributos 
-  Tipo_de_combustible="depende el tipo de avion"
-  Tamano="pequeño,mediano,grande"
-  Diseno="aerodinamico"
-  Velocida_maxima="600km/hra"
-  Color="depende la aerolinea"
+  tipo_de_combustible="depende el tipo de avion"
+  tamano="pequeño,mediano,grande"
+  diseno="aerodinamico"
+  velocida_maxima="600km/hra"
+  color="depende la aerolinea"
 
   #Metodos
   def puedeVolar(self):
@@ -17,11 +17,11 @@ class Avion:
 
 class AvionYet (Avion):
   #Atributos
-  Capacidad="depende el tipo de avion yet"
-  Dos_alas_o_alerones="depende el tamaño"
+  capacidad="depende el tipo de avion yet"
+  dos_alas_o_alerones="depende el tamaño"
   iluminacion="led o tipica"
-  Banos="numero de baños y ubicacion"
-  Tienen_pantallas="si por que es de lujo"
+  banos="numero de baños y ubicacion"
+  tienen_pantallas="si por que es de lujo"
 
   #Metodos
   def puedeVolar(self):
@@ -36,27 +36,27 @@ class AvionYet (Avion):
   def __init__(self):
     print("Avion Yet")
 
-objeto=Avion()
-objeto.puedeVolar()
-objeto.transportaPasajeros()
-print(objeto.Tipo_de_combustible)
-print(objeto.Tamano)
-print(objeto.Diseno)
-print(objeto.Velocida_maxima)
-print(objeto.Color)
+OBJETO=Avion()
+OBJETO.puedeVolar()
+OBJETO.transportaPasajeros()
+print(OBJETO.tipo_de_combustible)
+print(OBJETO.tamano)
+print(OBJETO.diseno)
+print(OBJETO.velocida_maxima)
+print(OBJETO.color)
 
-objeto_un_avion = AvionYet()
-objeto_un_avion.puedeVolar()
-objeto_un_avion.transportaPasajeros()
-objeto_un_avion.comodidad()
-objeto_un_avion.rapidez()
-print(objeto_un_avion.Tipo_de_combustible)
-print(objeto_un_avion.Tamano)
-print(objeto_un_avion.Diseno)
-print(objeto_un_avion.Velocida_maxima)
-print(objeto_un_avion.Color)
-print(objeto_un_avion.Capacidad)
-print(objeto_un_avion.Dos_alas_o_alerones)
-print(objeto_un_avion.iluminacion)
-print(objeto_un_avion.Banos)
-print(objeto_un_avion.Tienen_pantallas)
+OBJETO_UN_AVION = AvionYet()
+OBJETO_UN_AVION.puedeVolar()
+OBJETO_UN_AVION.transportaPasajeros()
+OBJETO_UN_AVION.comodidad()
+OBJETO_UN_AVION.rapidez()
+print(OBJETO_UN_AVION.tipo_de_combustible)
+print(OBJETO_UN_AVION.tamano)
+print(OBJETO_UN_AVION.diseno)
+print(OBJETO_UN_AVION.velocida_maxima)
+print(OBJETO_UN_AVION.color)
+print(OBJETO_UN_AVION.capacidad)
+print(OBJETO_UN_AVION.dos_alas_o_alerones)
+print(OBJETO_UN_AVION.iluminacion)
+print(OBJETO_UN_AVION.banos)
+print(OBJETO_UN_AVION.tienen_pantallas)
