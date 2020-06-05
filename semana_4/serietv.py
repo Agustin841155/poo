@@ -15,7 +15,7 @@ class SerieTV:
   def __init__(self):
     print:("metodos serieTV")
 
-class serietvnetflix(SerieTV):
+class SerietvNetflix(SerieTV):
   #Atributos
   tiene_una_Tematica="zombies,amor."
   horario_de_transmision="depende la plataforma"
@@ -45,7 +45,7 @@ print(OBJETO.tiene_una_duracion)
 print(OBJETO.es_una_obra_audiovisual)
 print(OBJETO.tiene_episodios)
 
-OBJETO_UNA_SERIE = serietvnetflix()
+OBJETO_UNA_SERIE = SerietvNetflix()
 OBJETO_UNA_SERIE.entretenimiento()
 OBJETO_UNA_SERIE.enrriquecimientoConocimientos()
 OBJETO_UNA_SERIE.diversion()
